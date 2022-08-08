@@ -44,9 +44,9 @@ nav a{
 }
 
 /* FIRST PART */
-/* .first-part h1{
+.first-part h1{
 font-weight: 600;
-} */
+}
 
 .first-part .left-half h1{
     margin-top: 30%;
@@ -54,7 +54,7 @@ font-weight: 600;
 }
 
 
-.first-part .left-half h1 span{
+.first-part .left-half .lasles{
     font-weight: 900;
 }
 
@@ -93,7 +93,7 @@ font-weight: 600;
 
 .second-part{
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .second-part i{
@@ -105,6 +105,19 @@ font-weight: 600;
     border-radius: 50%;
     text-align: center;
     padding-top: 12px;
+}
+
+/* THIRD PART*/
+.third-part h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10%;
+}
+
+.third-part i{
+    color: #f53838;
+    font-size: 20px;
+    padding-top: 10px;
 }
 
 
