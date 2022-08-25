@@ -9,7 +9,9 @@ nav img{
 }
 
 nav a{
-    font-weight: 400;
+    font-weight: 600;
+    text-align: justify;
+    margin : 0px 10px
 }
 
 
@@ -17,27 +19,30 @@ nav a{
     padding-right: 70px;
 }
 
-
-.signInUp h5{
+.signIn{
+    font-size: 20px;
     font-weight: 700;
     padding-right: 30px; 
     padding-top: 10px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    
 }
 
-.signInUp h5:hover{
+.signIn:hover{
     color: #f53855;
     cursor: pointer;
 }
 
-.signInUp button{
+.signUp{
     padding: 8px 30px;
     border: 2px solid #f53855;
     color: #f53855;
     font-weight: 700;
-    font-size: 18px;
 }
 
-.signInUp button:hover{
+.signUp:hover{
     color: white;
     background-color: #f53855;
     transition: all 0.4s;
@@ -62,7 +67,7 @@ font-weight: 600;
     font-weight: 600;
 }
 
-.first-part button{
+.first-part a{
     background-color: #f53838;
     border: none;
     padding: 17px 70px;
@@ -74,7 +79,7 @@ font-weight: 600;
     margin-top: 30px;
 }
 
-.first-part button:hover{
+.first-part a:hover{
     background-color: white;
     border: none;
     padding: 17px 70px;
@@ -138,6 +143,16 @@ font-weight: 600;
     justify-content: center;
 }
 
+.card-section .card{
+    margin: 3%;
+    padding: 3%;
+}
+
+.card-section .card:hover{
+        border: 1px solid #f53838;
+        transition: all 0.4s;
+}
+
 .card-section h5{
     font-weight: 700;
     margin-top: 30px;
@@ -148,34 +163,38 @@ font-weight: 600;
     text-align: justify;
     }
 
-.card-section h4{
+.card-section i{
+        font-size: 22px;
+        color: #f53838;
+    }    
+
+.card-section .package{
+   margin-top: 30%;
+}
+
+.card-section .package h4{
     font-weight: 700;
     
 }
 
-.card-section button{
+.card-section .package a{
     padding: 8px 30px;
     border: 2px solid #f53855;
     color: #f53855;
     font-weight: 700;
     font-size: 18px;
+    text-decoration: none;
 }
 
-.card-section button:hover{
+.card-section .package a:hover{
     color: white;
     background-color: #f53855;
     transition: all 0.4s;
 }
  
-.card-section .card{
-    margin: 3%;
-    padding: 3%;
-}
 
 
-.card-section i{
-    font-size: 22px;
-    color: #f53838;
-}
+
+
 
 
