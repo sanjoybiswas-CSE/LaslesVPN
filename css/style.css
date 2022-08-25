@@ -13,23 +13,23 @@ nav a{
 }
 
 
-.signIn{
+.signInUp{
     padding-right: 70px;
 }
 
 
-.signIn h5{
+.signInUp h5{
     font-weight: 700;
     padding-right: 30px; 
     padding-top: 10px;
 }
 
-.signIn h5:hover{
+.signInUp h5:hover{
     color: #f53855;
     cursor: pointer;
 }
 
-.signIn button{
+.signInUp button{
     padding: 8px 30px;
     border: 2px solid #f53855;
     color: #f53855;
@@ -37,7 +37,7 @@ nav a{
     font-size: 18px;
 }
 
-.signIn button:hover{
+.signInUp button:hover{
     color: white;
     background-color: #f53855;
     transition: all 0.4s;
@@ -118,6 +118,64 @@ font-weight: 600;
     color: #f53838;
     font-size: 20px;
     padding-top: 10px;
+}
+
+/* FORTH PART*/
+.forth-part{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+
+.forth-part h3{
+    font-weight: 600;
+    padding-top: 10%;
+   
+}
+
+.card-section {
+    display: flex;
+    justify-content: center;
+}
+
+.card-section h5{
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+
+.card-section p{
+    text-align: justify;
+    }
+
+.card-section h4{
+    font-weight: 700;
+    
+}
+
+.card-section button{
+    padding: 8px 30px;
+    border: 2px solid #f53855;
+    color: #f53855;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.card-section button:hover{
+    color: white;
+    background-color: #f53855;
+    transition: all 0.4s;
+}
+ 
+.card-section .card{
+    margin: 3%;
+    padding: 3%;
+}
+
+
+.card-section i{
+    font-size: 22px;
+    color: #f53838;
 }
 
 
