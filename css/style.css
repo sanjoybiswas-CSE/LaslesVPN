@@ -14,9 +14,6 @@ nav a{
     margin : 0px 10px
 }
 
-/* nav ul li a:hover{
-    color: #f53838;
-} */
 
 .signInUp{
     padding-right: 70px;
@@ -198,9 +195,9 @@ font-weight: 600;
 
 /* FIFTH PART */
 
-.media-partnar{
+/* .media-partnar{
    
-}
+} */
 
 .media-partnar img{
     
@@ -216,3 +213,54 @@ font-weight: 600;
 }
 
 
+/* SIXTH PART*/
+
+/* SEVENTH PART*/
+.seventh-part a{
+    background-color: #f53838;
+    border: none;
+    padding: 17px 70px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 30px 30px #d3777781;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.seventh-part a:hover{
+    background-color: white;
+    border: none;
+    padding: 17px 70px;
+    border-radius: 10px;
+    color: #f53838;
+    box-shadow: 0px 10px 20px black;
+    transition: all 0.3s;
+    font-weight: 600;
+}
+
+
+
+/* FOOTER PART */
+
+ .social-media a{
+    border:  1px solid gray;
+    padding: 3%;
+    margin-right: 5%;
+    border-radius: 50%;
+    color: #f53838;
+    /* margin-left: 5%; */
+    box-shadow: 0px 0px 8px black;
+}
+
+.social-media a:hover {
+    color: white;
+    background-color: #f53838;
+    transition: all 0.4s;
+   
+}
+
+footer li a{
+    text-decoration: none;
+    /* color: gray; */
+}
