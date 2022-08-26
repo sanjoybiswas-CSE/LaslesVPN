@@ -2,6 +2,7 @@
 body{
     font-family: 'Rubik', sans-serif;
 }
+
 /* NAV BAR */
 
 nav img{
@@ -113,6 +114,7 @@ font-weight: 600;
 }
 
 /* THIRD PART*/
+
 .third-part h2{
     font-size: 40px;
     font-weight: 700;
